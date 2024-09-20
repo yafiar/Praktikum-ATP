@@ -19,7 +19,7 @@ int main() {
     int AC = hitungJarak(xa, ya, xc, yc);
     
 
-    if (fabs(AB - BC) < 1e-9 && fabs(BC - AC) < 1e-9) {
+    if (AB==BC && BC==AC) {
         printf("segitiga sama sisi\n");
     }
 
